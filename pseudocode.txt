@@ -1,0 +1,47 @@
+<------------------- MASTER PLAN --------------------->
+kitten minesweeper
+humans are mines
+kitchen [tiles]
+TREASUREEEEE [yarn? something shiny? cat toy?]
+game space is made up of rooms
+portal/stairs in room to get to minigames
+
+
+if flag and click on mine >=7 times: human open room
+mini game in room *work on this later
+cats move in revealed space
+
+
+<------------------ PSEUDOCODE ------------------------>
+draw square grid
+16x16 20 mines
+randomly place mines
+generate numbers
+
+EVENT click on tile
+if mine:
+  human, explode, lose
+else if cat:
+  number
+else if treasure:
+  upgrade cat food [score multiplier]
+else:
+  blank space
+
+EVENT flag [right click]
+1:
+  red x
+2:
+  question mark
+3: disappear
+//need click counter for flagged squares
+//need mine counter
+
+SCORING
+//need score counter
+10 per tile revealed
+multiplier:
+2
+5
+10
+420
